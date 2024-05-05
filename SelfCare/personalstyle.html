@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Website Title and Logo-->
+	  <title>Bank Accounts</title>
+
+    <!-- Links for Content Design-->
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" >
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="shortcut icon" href="../images/GPLogo.ico" type="image/x-icon" />
+        <link rel="stylesheet" type="text/css" href="../css/general.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- Links for Content Funtionality and Icons-->  
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" crossorigin="anonymous"></script>        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.js"></script>
+        <script src="https://kit.fontawesome.com/92e37675b9.js" crossorigin="anonymous"></script>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#toc">
+
+<!--**************************************BACK TO TOP BUTTON BEGIN***********************************************--> 
+<button type="button" class="btn btn-floating btn-lg" id="btn-back-to-top" style="background-color: #1b1363; box-shadow: inset;">
+    <i class="fa-solid fa-arrow-up-from-bracket" style="color: white;"></i>
+</button>
+<!--**************************************BACK TO TOP BUTTON END***********************************************--> 
+
+<!--**************************************NAVIGATION BAR & HERO BEGIN***********************************************--> 
+<div class="parallax-two">
+    <img class="img-responsive" src="../images/personal.png" alt="background image">      
+    <nav class="navbar navbar-fixed-top" >
+        <div class="container">              
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-bs-toggle="collapse" data-bs-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>                        
+                </button>
+            </div>            
+            <div class="collapse navbar-collapse" id="myNavbar">  
+            <div style="font-size: 20px;">
+                <a class="navbar-brand" href="../home.html"><b>HOME</b></a>
+            </div>              
+            <ul class="nav navbar-nav navbar-right" style="display: inline-block !important;">
+                <li><a href="../about.html"><span class="glyphicon"></span>ABOUT</a></li>
+                <li class="dropdown nav-item">
+                    <a class="dropbtn" href="../HouseKeeping/housekeeping.html"><span class="glyphicon"></span>HOUSEKEEPING</a>
+                    <div class="dropdown-content">
+                        <a href="../HouseKeeping/daily.html">Daily</a>
+                        <a href="../HouseKeeping/weekly.html">Weekly</a>
+                        <a href="../HouseKeeping/monthly.html">Monthly</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a class="dropbtn" href="../Finance/finance.html"><span class="glyphicon"></span>FINANCE</a>
+                    <div class="dropdown-content">
+                        <a href="../Finance/bankaccount.html">Bank Accounts</a>
+                        <a href="../Finance/budgeting.html">Budgeting</a>
+                        <a href="../Finance/insurance.html">Insurance</a>                        
+                        <a href="../Finance/renting.html">Rent & Buy</a>                        
+                        <a href="../Finance/taxes.html">Taxes</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a class="dropbtn" href="../SelfCare/selfcare.html"><span class="glyphicon"></span>SELF-CARE</a>
+                    <div class="dropdown-content">
+                        <a href="../SelfCare/mental.html">Mental</a>
+                        <a href="../SelfCare/physical.html">Physical</a>
+                        <a href="../SelfCare/personalstyle.html">Personal Style</a>
+                        <a href="../SelfCare/hygiene.html">Hygiene</a>
+                        <a href="../SelfCare/resources.html">Resources</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a class="dropbtn" href="../Website/SocialLife/sociallife.html"><span class="glyphicon"></span>SOCIAL LIFE</a>
+                    <div class="dropdown-content">
+                        <a href="#">Relationships</a>
+                        <a href="#">Friendships</a>
+                        <a href="#">Social Etiquette</a>
+                        <a href="#">Social Media</a>
+                    </div>
+                </li>
+                <li style="background-color: #ec7263;" class="rounded-4"><a href="contact.html"><span class="glyphicon"></span>CONTACT</a></li>
+            </ul>
+            </div>
+        </div>
+    </nav> 
+    <br>
+</div>  
+<!--**************************************NAVIGATION BAR & HERO END*************************************************--> 
+
+
+<!--****************************************** MAIN CONTENT BEGIN ****************************************************-->
+<div class="container">
+    <div class="row ">
+        <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+        <nav id="toc" data-toggle="toc" class="toc"></nav>
+        </div>
+               
+    <!---------------------------------- Post Content--------------------------------------------->
+    <article class="container col-xs-12 col-sm-12 col-md-10 col-lg-10" style="font-family: 'Montserrat', sans-serif; font-size:35px;">
+        <h1 class="display-1">How Bank Accounts Work</h1>
+        <p style="font-size: 16px;"><b>May 01, 2024</b></p> 
+        <p style="font-size: 15px;"><i>By My Growing Pains</i></p> 
+        <br>
+        <div class="row gx-4 gx-lg-5 justify-content-center font-one-two">
+
+                <p>
+                    Most people open their bank accounts around the age of 16, with the assistance of their parents.
+                    Typically, I’d assume around this time, we are getting our first ever job, so we need somewhere to store that money. 
+                </p>
+                <p>
+                    Bank accounts store our money and can sometimes make us more based on how you go about it.
+                    The convenient thing about the United States is that each state has many banks. From nationwide bank franchises,
+                    like Wells Fargo or Chase, to local banks that you can find around any corner. It seems we are never short of options,
+                    so do your research on the banks near you, read reviews, and choose which one you want. 
+                </p>
+                <p>
+                    There are four types of bank accounts:  
+                </p>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">1. Checking accounts</li>
+                    <li class="list-group-item">2. Savings Accounts</li>
+                    <li class="list-group-item">3. Money Market Accounts</li>
+                    <li class="list-group-item">4. Certificate of Deposit Accounts</li>
+                </ul>
+                <p>
+                    Let’s go in depth with each of these accounts.
+                </p>
+
+            <h2 class="section-heading">Checking Accounts</h2>
+                <p>
+                    Did you know there were different types of checking accounts that a person can open? 
+                    There are more than four, but the most commonly used one is the standard checking account.
+                </p>
+                <p>
+                    The standard checking account is a deposit account that often comes with characteristics such as access to an ATM, 
+                    online banking, a debit card, and even access to a check book.
+                    It allows you to deposit, transfer and withdraw funds. 
+                </p>
+                <p>
+                    Now look, checks are not an archaic practice. For big purchases, some companies require checks, so do not skip 
+                    learning how to write and read a check. 
+                </p>
+                <p>
+                    Look at this image below to better understand the anatomy of a check. 
+                </p>
+                <img src="../images/check-finance.jpg" alt="anatomy of check">
+
+            <h2 class="section-heading"><br>Savings Accounts</h2>
+
+                <p>
+                    So, you have a checking account, good, now it’s time to meet checking accounts best friend: the savings account.
+                    In your checking account, you are storing money that can easily be taken out, put in, etc., but what about the
+                    money that you don’t necessarily need to spend right away? A savings account is where you are going to store all the money
+                    that you will need for emergencies or future big purchases you are saving for. 
+                </p>
+                <p>
+                    Money can be deposited in this account via online transfers, in the bank, or via checks deposits. The great thing about 
+                    savings accounts is that you can actually make money with them through the concept of compounding interest.  
+                </p>
+                <p>
+                    Say you initially put $2,000 in your savings account. Each month, for 25 years, you plan on putting $200 in there every month.
+                    You also have an interest rate of 5%. In 25 years, you will make over $120,000 dollars.
+                    That’s the beauty of compound interest. 
+                </p>
+
+            <h2 class="section-heading"><br>Money Market Accounts</h2>
+
+                <p>
+                    Unlike the standard savings accounts, money market accounts pay higher interest and are a little less flexible
+                    when it comes to transactions. Always speak with your bank and make sure you are aware of their stipulations.  
+                </p>
+                <p>
+                    Some of the disadvantages of money market accounts is they may have tougher restrictions on withdrawals and may
+                    require a larger deposit, however, can  be highly beneficial to you as well. Some of the advantages of money market 
+                    accounts include safety and security because they can be FDIC insured, depending on the bank, and due to higher interest, can get you higher returns.  
+                </p>
+
+            <h2 class="section-heading"><br>Certificate of Deposit Accounts</h2>
+
+                <p>
+                    A Certificate of Deposit, also known as a CD, is a length-based special savings account where you are generally unable to 
+                    make any withdrawals for a certain period of time.  
+                </p>
+                <p>
+                    Say in 3 years, you plan to make a big purchase, so you decide to buy a CD. You put down an initial deposit of $50,000
+                    on a CD with an interest rate of 4.5%. Within the 3 years, you will have made roughly $57,000.   
+                </p>
+                <p>
+                    Certificates of Deposit are also protected by the Federal Deposit Insurance Corporation (FDIC) and can be insured for up to $250,000.
+                </p>
+
+            <h2 class="section-heading">Opening a Bank Account</h2>
+
+                <p>
+                    Now that you know about each of these accounts, how can you get started? 
+                </p>
+                <p>
+                    Let’s first understand what you need to start a bank account. You need:  
+                </p>
+                <ul style="margin-left: 150px;">
+                    <li>Your Social Security Number (SSN)</li>
+                    <li>A government-issued photo ID</li>
+                        <ul>
+                            <li>An ID</li>
+                            <li>A passport</li>
+                            <li>A driver's license</li>
+                        </ul>
+                    <li>Money Market Accounts</li>
+                </ul>
+
+            <h2 class="section-heading">Conclusion</h2>
+
+                <p>
+                    Make sure you have all the necessary information and materials before you waltz into a bank.
+                    Don’t just go into one thinking you can deposit whatever and start whatever.
+                </p>   
+                <p>
+                    Banks have specialists that can help you decide what is best for you, so make sure to utilize all of your resources.
+                </p>
+            <br>
+            <br>
+                <p>
+                Written by
+                <a href="../about.html">Doreen Chirwa</a>
+                &middot; 
+                <a href="../home.html">My Growing Pains</a>
+            </p>
+        </div>       
+    </article>
+    </div>
+</div>
+<!--****************************************** MAIN CONTENT END ****************************************************-->
+<br>
+<br>
+<br>
+<!--******************************************FOOTER BEGIN**************************************************-->
+<div class="container-fluid" style="background-color: #f89421; font-family: 'Montserrat', serif;">
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3 text-white">
+        <li class="nav-item"><a href="../home.html" class="nav-link px-2 text-body-secondary"><b>HOME</b></a></li>
+        <li class="nav-item"><a href="../about.html" class="nav-link px-2 text-body-secondary">ABOUT</a></li>
+        <li class="nav-item"><a href="../HouseKeeping/housekeeping.html" class="nav-link px-2 text-body-secondary">HOUSEKEEPING</a></li>
+        <li class="nav-item"><a href="../Finance/finance.html" class="nav-link px-2 text-body-secondary">FINANCE</a></li>
+        <li class="nav-item"><a href="../SelfCare/selfcare.html" class="nav-link px-2 text-body-secondary">SELF-CARE</a></li>
+        <li class="nav-item"><a href="../SocialLife/sociallife.html" class="nav-link px-2 text-body-secondary">SOCIAL LIFE</a></li>
+        <li class="nav-item"><a href="../contact.html" class="nav-link px-2 text-body-secondary">CONTACT</a></li>
+      </ul>
+      <p class="text-center text-white">&copy; 2024 Copyright: 
+          <a href="home.html"> mygrowingpains.com</a></p>
+    </footer>
+  </div>    
+<!--******************************************FOOTER END****************************************************-->
+  
+<script>
+  //****************** NAVBAR SCROLL FUNCTION **************************//
+  const navEl = document.querySelector('.navbar');
+  
+  window.addEventListener('scroll', () => {
+      if(window.scrollY >= 56) {
+          navEl.classList.add('navbar-scrolled');
+      }
+      else if(window.scrollY < 56) {
+          navEl.classList.remove('navbar-scrolled');
+      }
+  });
+  
+  //****************** BACK TO TOP OF PAGE BUTTON ********************//
+  let mybutton = document.getElementById("btn-back-to-top");
+  
+  window.onscroll = function () {
+    scrollFunction();
+  };
+  
+  function scrollFunction() {
+    if (
+      document.body.scrollTop > 20 ||
+      document.documentElement.scrollTop > 20
+    ) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+  
+  mybutton.addEventListener("click", backToTop);
+  
+  function backToTop() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+</script>
+
+</body>
+</html>
