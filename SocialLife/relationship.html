@@ -5,162 +5,256 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Website Title and Logo-->
-	  <title> Growing Pains</title>
+	  <title>Relationships</title>
 
     <!-- Links for Content Design-->
         <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" >
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.css"/>
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700,900|Ubuntu:400,500,700" rel="stylesheet">
         <link rel="shortcut icon" href="../images/GPLogo.ico" type="image/x-icon" />
         <link rel="stylesheet" type="text/css" href="../css/general.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
     <!-- Links for Content Funtionality and Icons-->  
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" crossorigin="anonymous"></script>        
         <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js" crossorigin="anonymous"></script>
         <script src="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.js"></script>
+        <script src="https://kit.fontawesome.com/92e37675b9.js" crossorigin="anonymous"></script>
 </head>
-<body  data-bs-spy="scroll" data-bs-target="#toc" style="background: #f2f9f1; font-family: 'Josefin Sans', sans-serif;">
 
-<!-- Container for Navigation Bar-->
-<nav class="navbar navbar-default navbar-fixed-top" >
-    <div class="container">              
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-bs-toggle="collapse" data-bs-target="#myNavbar">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>                        
-            </button>
-        </div>            
-        <div class="collapse navbar-collapse" id="myNavbar">  
-        <div style="font-size: 20px;">
-            <a class="navbar-brand"  href="../home.html"><b>HOME</b></a>
-        </div>              
-        <ul class="nav navbar-nav navbar-right" style="display: inline-block !important;">
-            <li><a href="../about.html"><span class="glyphicon"></span>ABOUT</a></li>
-            <li class="dropdown nav-item">
-                <a class="dropbtn" href="../HouseKeeping/housekeeping.html"><span class="glyphicon"></span>HOUSEKEEPING</a>
-                <div class="dropdown-content">
-                    <a href="../HouseKeeping/daily.html">Daily</a>
-                    <a href="../HouseKeeping/weekly.html">Weekly</a>
-                    <a href="../HouseKeeping/monthly.html">Monthly</a>
-                  </div>
-            </li>
-            <li class="dropdown nav-item">
-                <a class="dropbtn" href="../Finance/finance.html"><span class="glyphicon"></span>FINANCE</a>
-                <div class="dropdown-content">
-                    <a href="../Finance/insurance.html">Insurance</a>
-                    <a href="../Finance/budgeting.html">Budgeting</a>
-                    <a href="../Finance/renting.html">Renting or Buying?</a>
-                    <a href="../Finance/bankaccount.html">Bank Accounts</a>
-                    <a href="../Finance/taxes.html">Taxes</a>
-                  </div>
-            </li>
-            <li class="dropdown">
-                <a class="dropbtn" href="selfcare.html"><span class="glyphicon"></span>SELF-CARE</a>
-                <div class="dropdown-content">
-                    <a href="../SelfCare/mental.html">Mental</a>
-                    <a href="../SelfCare/physical.html">Physical</a>
-                    <a href="../SelfCare/personalstyle.html">Personal Style</a>
-                    <a href="../SelfCare/hygiene.html">Hygiene</a>
-                    <a href="../SelfCare/resources.html">Resources</a>
-                  </div>
-            </li>
-            <li class="dropdown">
-                <a class="dropbtn" href="../SocialLife/sociallife.html"><span class="glyphicon"></span>SOCIAL LIFE</a>
-                <div class="dropdown-content">
-                    <a href="../SocialLife/relationship.html">Relationships</a>
-                    <a href="../SocialLife/friendships.html">Friendships</a>
-                    <a href="../SocialLife/etiquette.html">Social Etiquette</a>
-                    <a href="../SocialLife/socialmedia.html">Social Media</a>
-                  </div>
-            </li>
-            <li style="background-color: #ec7263;"><a href="../contact.html"><span class="glyphicon"></span>CONTACT</a></li>
-        </ul>
+<body data-bs-spy="scroll" data-bs-target="#toc">
+
+<!--**************************************BACK TO TOP BUTTON BEGIN***********************************************--> 
+<button type="button" class="btn btn-floating btn-lg" id="btn-back-to-top" style="background-color: #1b1363; box-shadow: inset;">
+    <i class="fa-solid fa-arrow-up-from-bracket" style="color: white;"></i>
+</button>
+<!--**************************************BACK TO TOP BUTTON END***********************************************--> 
+
+<!--**************************************NAVIGATION BAR & HERO BEGIN***********************************************--> 
+<div class="parallax-two">
+    <img class="img-responsive" src="../images/relationships.png" alt="background image">      
+    <nav class="navbar navbar-fixed-top" >
+        <div class="container">              
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-bs-toggle="collapse" data-bs-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>                        
+                </button>
+            </div>            
+            <div class="collapse navbar-collapse" id="myNavbar">  
+            <div style="font-size: 20px;">
+                <a class="navbar-brand" href="../home.html"><b>HOME</b></a>
+            </div>              
+            <ul class="nav navbar-nav navbar-right" style="display: inline-block !important;">
+                <li><a href="../about.html"><span class="glyphicon"></span>ABOUT</a></li>
+                <li class="dropdown nav-item">
+                    <a class="dropbtn" href="../HouseKeeping/housekeeping.html"><span class="glyphicon"></span>HOUSEKEEPING</a>
+                    <div class="dropdown-content">
+                        <a href="../HouseKeeping/daily.html">Daily</a>
+                        <a href="../HouseKeeping/weekly.html">Weekly</a>
+                        <a href="../HouseKeeping/monthly.html">Monthly</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a class="dropbtn" href="../Finance/finance.html"><span class="glyphicon"></span>FINANCE</a>
+                    <div class="dropdown-content">
+                        <a href="../Finance/bankaccount.html">Bank Accounts</a>
+                        <a href="../Finance/budgeting.html">Budgeting</a>
+                        <a href="../Finance/insurance.html">Insurance</a>                        
+                        <a href="../Finance/renting.html">Rent & Buy</a>                        
+                        <a href="../Finance/taxes.html">Taxes</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a class="dropbtn" href="../SelfCare/selfcare.html"><span class="glyphicon"></span>SELF-CARE</a>
+                    <div class="dropdown-content">
+                        <a href="../SelfCare/mental.html">Mental</a>
+                        <a href="../SelfCare/physical.html">Physical</a>
+                        <a href="../SelfCare/personalstyle.html">Personal Style</a>
+                        <a href="../SelfCare/hygiene.html">Hygiene</a>
+                        <a href="../SelfCare/resources.html">Resources</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a class="dropbtn" href="../SocialLife/sociallife.html"><span class="glyphicon"></span>SOCIAL LIFE</a>
+                    <div class="dropdown-content">
+                        <a href="../SocialLife/relationship.html">Relationships</a>
+                        <a href="../SocialLife/friendships.html">Friendships</a>
+                        <a href="../SocialLife/etiquette.html">Social Etiquette</a>
+                        <a href="../SocialLife/socialmedia.html">Social Media</a>
+                    </div>
+                </li>
+                <li style="background-color: #ec7263;" class="rounded-4"><a href="../contact.html"><span class="glyphicon"></span>CONTACT</a></li>
+            </ul>
+            </div>
         </div>
-    </div>
-  </nav>
+    </nav> 
+    <br>
+</div>  
+<!--**************************************NAVIGATION BAR & HERO END*************************************************--> 
 
-<!-- Hero Image-->
-<!-- Container for Jumbotron-->
-<div class="container-fluid img-four p-0 py-2" style="margin: 0;">
-    <img class="img-responsive" src="../images/Hero-H-1.png"> 
-</div> 
 
-<!-- Container for Main Content and Side Bar-->
-    <div class="container">
-        <div class="row ">
-          <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 py-5 ">
-            <nav id="toc" data-toggle="toc" class="toc">
-            </nav>
-          </div> 
-                
-        <!-- Post Content-->
-            <article class="container col-xs-12 col-sm-12 col-md-10 col-lg-10">
-                <h1 class="display-5">AHHHHHHHHHHHH</h1>
-                <div class="row gx-4 gx-lg-5 justify-content-center font-one-two">
-                    
-                    <h2 class="section-heading">Health Insurance</h2>
-
-                        <p>Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.</p>
-                        <p>Science cuts two ways, of course; its products can be used for both good and evil. But there's no turning back from science. The early warnings about technological dangers also come from science.</p>
-                        <p>What was most significant about the lunar voyage was not that man set foot on the Moon but that they set eye on the earth.</p>
-                        <p>A Chinese tale tells of some men sent to harm a young girl who, upon seeing her beauty, become her protectors rather than her violators. That's how I felt seeing the Earth for the first time. I could not help but love and cherish her.</p>
-                        <p>For those who have seen the Earth from space, and for the hundreds and perhaps thousands more who will, the experience most certainly changes your perspective. The things that we share in our world are far more valuable than those which divide us.</p>
-                    
-                    <h2 class="section-heading">Life Insurance</h2>
-
-                        <p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>
-                        <p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>
-                        <blockquote class="blockquote">The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.</blockquote>
-                        <p>Spaceflights cannot be stopped. This is not the work of any one man or even a group of men. It is a historical process which mankind is carrying out in accordance with the natural laws of human development.</p>
-                    
-                    <h2 class="section-heading">Dental Insurance</h2>
-
-                        <p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would crumble and fall apart. Seeing this has to change a man.</p>
-                        <a href="#!"><img class="img-fluid" src="assets/img/post-sample-image.jpg" alt="..." /></a>
-                        <span class="caption text-muted">To go places and do things that have never been done before – that’s what living is all about.</span>
-                        <p>Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before.</p>
-                        <p>As I stand out here in the wonders of the unknown at Hadley, I sort of realize there’s a fundamental truth to our nature, Man must explore, and this is exploration at its greatest.</p>
-                    
-                    <h2 class="section-heading">Car Insurance</h2>
-
-                    <p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would crumble and fall apart. Seeing this has to change a man.</p>
-                    <a href="#!"><img class="img-fluid" src="assets/img/post-sample-image.jpg" alt="..." /></a>
-                    <span class="caption text-muted">To go places and do things that have never been done before – that’s what living is all about.</span>
-                    <p>Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before.</p>
-                    <p>As I stand out here in the wonders of the unknown at Hadley, I sort of realize there’s a fundamental truth to our nature, Man must explore, and this is exploration at its greatest.</p>
-                
-                        <p>
-                            Placeholder text by
-                            <a href="http://spaceipsum.com/">Space Ipsum</a>
-                            &middot; Images by
-                            <a href="https://www.flickr.com/photos/nasacommons/">NASA on The Commons</a>
-                        </p>
-                </div>       
-            </article>
+<!--****************************************** MAIN CONTENT BEGIN ****************************************************-->
+<div class="container">
+    <div class="row ">
+        <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+        <nav id="toc" data-toggle="toc" class="toc"></nav>
         </div>
+               
+    <!---------------------------------- Post Content--------------------------------------------->
+    <article class="container col-xs-12 col-sm-12 col-md-10 col-lg-10" style="font-family: 'Montserrat', sans-serif; font-size:35px;">
+        <h1 class="display-1">Building and Maintaining Strong Relationships</h1>
+        <p style="font-size: 16px;"><b>May 01, 2024</b></p> 
+        <p style="font-size: 15px;"><i>By My Growing Pains</i></p> 
+        <br>
+        <div class="row gx-4 gx-lg-5 justify-content-center font-one-two">
+
+                <p>
+                    I grew up with Disney princess movies where the concept of love was this magical thing that was perfect all the time. 
+                    I learned as I got older, that that simply was not the case. In fact, relationships can be quite difficult.
+                </p>
+                <p>
+                    As mentioned in the lessons of <a href="../SocialLife/friendships.html">friendships</a>, there are things within your relationship that are out of your control. 
+                </p>
+                <p>
+                    Relationships are so different and vary based on culture, socioeconomic status, and even nationality. 
+                    However, these main things to know can be applied to most, if not all, relationships in order for them to be healthy:
+                </p>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">1. Don’t Lead Anyone On</li>
+                    <li class="list-group-item">2. Set Healthy Boundaries </li>
+                    <li class="list-group-item">3. Communicate with Each Other </li>
+                    <li class="list-group-item">4. Support Each Other </li>
+                </ul>
+                <img src="../images/relationship-img.jpg" alt="anatomy of check">
+
+            <h2 class="section-heading"><br> Don’t Lead Anyone On</h2>
+                <p>
+                    It’s not a good thing to lead any one on. It’s important to make sure you are attracted to your partner.
+                </p>
+                <p>
+                    Now it is completely unrealistic for everyone to be attracted to you. Take the rejection 
+                    and move on if someone isn’t into you. There are so many people out there.
+                </p>
+                <p>
+                    Make yourself clear in your intentions. If you want something more long-term, make that clear upfront. 
+                    If not, let them know. Wasting someone’s time can cause resentment. Be honest and transparent.
+                </p>
+
+            <h2 class="section-heading"><br>Set Healthy Boundaries</h2>
+
+                <p>
+                    Just because you are in a relationship, that does not mean you are entitled to your partner and vice versa. 
+                </p>
+                <p>
+                    Not taking your partner’s boundaries seriously can not only disturb their comfort, but this can also cause negative rifts in your relationship.  
+                </p>
+
+            <h2 class="section-heading"><br>Communicate with Each Other </h2>
+
+                <p>
+                    In a relationship, we cannot read each other’s mind. If your partner does something that upsets you, let them know 
+                    calmly what they did, why it made you feel the way it did, and discuss how you can resolve the situation.  
+                </p>
+                <p>
+                    This doesn’t just apply to conflict; if your partner does something kind to you, express gratitude, and praise. Compliments can make any one feel good.  
+                </p>
+
+            <h2 class="section-heading"><br>Support Each Other</h2>
+
+                <p>
+                    Support one another by taking the time to listen to each other, offer honest, yet mindful feedback, 
+                    and sometimes by just giving love to your partner. No one should feel dismissed in a relationship. 
+                </p>
+                <p>
+                    If you are telling your partner something, and they seem distracted and uninterested, 
+                    let them know how you don’t feel supported. This can also apply to you too.   
+                </p>
+
+            <h2 class="section-heading">Conclusion</h2>
+
+                <p>
+                    In conclusion, if you and your partner are struggling yet want to stay together, contact a couple’s therapist. It doesn’t hurt to get a third opinion.  
+                </p>   
+                <p>
+                    I recommend a therapist because more often than not, our loved ones are biased towards us, so you need a fresh, unbiased opinion. 
+                    This doesn’t mean you shouldn’t rely on your trusted loved ones, no, this just means be careful with what you share with others. 
+                </p>
+            <br>
+            <br>
+                <p>
+                Written by
+                <a href="../about.html">Doreen Chirwa</a>
+                &middot; 
+                <a href="../home.html">My Growing Pains</a>
+            </p>
+        </div>       
+    </article>
     </div>
-    <br>
-    <br>
-    <br>
-<!-- Container for Footer-->
-<footer class="text-white text-center text-lg-start " style="background: #1b1363;">
-    <!-- Grid container -->
-    <div class="container py-5">    
-    </div>
-    <!-- Grid container -->
-    <!-- Copyright -->
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-      © 2024 Copyright:
-      <a href="home.html">Growingpains.com</a>
-    </div>
-    <!-- Copyright -->
-</footer>
+</div>
+<!--****************************************** MAIN CONTENT END ****************************************************-->
+<br>
+<br>
+<br>
+<!--******************************************FOOTER BEGIN**************************************************-->
+<div class="container-fluid" style="background-color: #f89421; font-family: 'Montserrat', serif;">
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3 text-white">
+        <li class="nav-item"><a href="../home.html" class="nav-link px-2 text-body-secondary"><b>HOME</b></a></li>
+        <li class="nav-item"><a href="../about.html" class="nav-link px-2 text-body-secondary">ABOUT</a></li>
+        <li class="nav-item"><a href="../HouseKeeping/housekeeping.html" class="nav-link px-2 text-body-secondary">HOUSEKEEPING</a></li>
+        <li class="nav-item"><a href="../Finance/finance.html" class="nav-link px-2 text-body-secondary">FINANCE</a></li>
+        <li class="nav-item"><a href="../SelfCare/selfcare.html" class="nav-link px-2 text-body-secondary">SELF-CARE</a></li>
+        <li class="nav-item"><a href="../SocialLife/sociallife.html" class="nav-link px-2 text-body-secondary">SOCIAL LIFE</a></li>
+        <li class="nav-item"><a href="../contact.html" class="nav-link px-2 text-body-secondary">CONTACT</a></li>
+      </ul>
+      <p class="text-center text-white">&copy; 2024 Copyright: 
+          <a href="../home.html"> mygrowingpains.com</a></p>
+    </footer>
+  </div>    
+<!--******************************************FOOTER END****************************************************-->
+  
+<script>
+  //****************** NAVBAR SCROLL FUNCTION **************************//
+  const navEl = document.querySelector('.navbar');
+  
+  window.addEventListener('scroll', () => {
+      if(window.scrollY >= 56) {
+          navEl.classList.add('navbar-scrolled');
+      }
+      else if(window.scrollY < 56) {
+          navEl.classList.remove('navbar-scrolled');
+      }
+  });
+  
+  //****************** BACK TO TOP OF PAGE BUTTON ********************//
+  let mybutton = document.getElementById("btn-back-to-top");
+  
+  window.onscroll = function () {
+    scrollFunction();
+  };
+  
+  function scrollFunction() {
+    if (
+      document.body.scrollTop > 20 ||
+      document.documentElement.scrollTop > 20
+    ) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+  
+  mybutton.addEventListener("click", backToTop);
+  
+  function backToTop() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+</script>
 
 </body>
 </html>

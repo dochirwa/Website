@@ -5,175 +5,135 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Website Title and Logo-->
-	  <title> Growing Pains</title>
-
+	  <title>Social Life</title>
+ 
     <!-- Links for Content Design-->
         <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" >
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.css"/>
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700,900|Ubuntu:400,500,700" rel="stylesheet">
         <link rel="shortcut icon" href="../images/GPLogo.ico" type="image/x-icon" />
         <link rel="stylesheet" type="text/css" href="../css/general.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
     <!-- Links for Content Funtionality and Icons-->  
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" crossorigin="anonymous"></script>        
         <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js" crossorigin="anonymous"></script>
-        <script src="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.js"></script>
         <script src="https://kit.fontawesome.com/92e37675b9.js" crossorigin="anonymous"></script>
 </head>
-<body  data-bs-spy="scroll" data-bs-target="#toc" style="background-color: #fcf5ef; font-family: 'Josefin Sans', sans-serif;">
+<body style="background-color: #ffdada;">
 
-<!-- Back to top button -->
-<button type="button" class="btn btn-floating btn-lg" id="btn-back-to-top" style="background-color: #f89421;">
-    <i class="fa-solid fa-arrow-up-from-bracket"></i>
+<!--**************************************BACK TO TOP BUTTON BEGIN***********************************************--> 
+<button type="button" class="btn btn-floating btn-lg" id="btn-back-to-top" style="background-color: #1b1363; box-shadow: inset;">
+  <i class="fa-solid fa-arrow-up-from-bracket" style="color: white;"></i>
 </button>
-<!-- Container for Navigation Bar-->
+<!--**************************************BACK TO TOP BUTTON END***********************************************--> 
 
-<nav class="navbar navbar-default navbar-fixed-top" >
-    <div class="container">              
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-bs-toggle="collapse" data-bs-target="#myNavbar">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>                        
-            </button>
-        </div>            
-        <div class="collapse navbar-collapse" id="myNavbar">  
-        <div style="font-size: 20px;">
-            <a class="navbar-brand"  href="../home.html"><b>HOME</b></a>
-        </div>              
-        <ul class="nav navbar-nav navbar-right" style="display: inline-block !important;">
-            <li><a href="../about.html"><span class="glyphicon"></span>ABOUT</a></li>
-            <li class="dropdown nav-item">
-                <a class="dropbtn" href="../HouseKeeping/housekeeping.html"><span class="glyphicon"></span>HOUSEKEEPING</a>
-                <div class="dropdown-content">
-                    <a href="../HouseKeeping/daily.html">Daily</a>
-                    <a href="../HouseKeeping/weekly.html">Weekly</a>
-                    <a href="../HouseKeeping/monthly.html">Monthly</a>
+
+<!--**************************************NAVIGATION BAR & HERO BEGIN***********************************************--> 
+<div class="parallax">
+  <img class="bg-img" src="../images/art-21.jpg" alt="background image">  
+  <img class="imgB1" src="../images/Social-Hero.png" alt="web title">   
+  <nav class="navbar navbar-fixed-top" >
+      <div class="container">              
+          <div class="navbar-header"  >
+              <button type="button" class="navbar-toggle"data-bs-toggle="collapse" data-bs-target="#myNavbar">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>                        
+              </button>
+          </div>            
+          <div class="collapse navbar-collapse" id="myNavbar">  
+          <div style="font-size: 20px;">
+              <a class="navbar-brand"  href="../home.html"><b>HOME</b></a>
+          </div>              
+          <ul class="nav navbar-nav navbar-right" style="display: inline-block !important;">
+              <li><a href="../about.html"><span class="glyphicon"></span>ABOUT</a></li>
+              <li class="dropdown nav-item">
+                  <a class="dropbtn" href="../HouseKeeping/housekeeping.html"><span class="glyphicon"></span>HOUSEKEEPING</a>
+                  <div class="dropdown-content">
+                      <a href="../HouseKeeping/daily.html">Daily</a>
+                      <a href="../HouseKeeping/weekly.html">Weekly</a>
+                      <a href="../HouseKeeping/monthly.html">Monthly</a>
                   </div>
-            </li>
-            <li class="dropdown nav-item">
+              </li>
+              <li class="dropdown">
                 <a class="dropbtn" href="../Finance/finance.html"><span class="glyphicon"></span>FINANCE</a>
                 <div class="dropdown-content">
-                    <a href="../Finance/insurance.html">Insurance</a>
-                    <a href="../Finance/budgeting.html">Budgeting</a>
-                    <a href="../Finance/renting.html">Renting or Buying?</a>
                     <a href="../Finance/bankaccount.html">Bank Accounts</a>
+                    <a href="../Finance/budgeting.html">Budgeting</a>
+                    <a href="../Finance/insurance.html">Insurance</a>                        
+                    <a href="../Finance/renting.html">Rent & Buy</a>                        
                     <a href="../Finance/taxes.html">Taxes</a>
+                </div>
+              </li>
+              <li class="dropdown">
+                  <a class="dropbtn" href="../SelfCare/selfcare.html"><span class="glyphicon"></span>SELF-CARE</a>
+                  <div class="dropdown-content">
+                      <a href="../SelfCare/mental.html">Mental</a>
+                      <a href="../SelfCare/physical.html">Physical</a>
+                      <a href="../SelfCare/personalstyle.html">Personal Style</a>
+                      <a href="../SelfCare/hygiene.html">Hygiene</a>
+                      <a href="../SelfCare/resources.html">Resources</a>
                   </div>
-            </li>
-            <li class="dropdown">
-                <a class="dropbtn" href="selfcare.html"><span class="glyphicon"></span>SELF-CARE</a>
-                <div class="dropdown-content">
-                    <a href="../SelfCare/mental.html">Mental</a>
-                    <a href="../SelfCare/physical.html">Physical</a>
-                    <a href="../SelfCare/personalstyle.html">Personal Style</a>
-                    <a href="../SelfCare/hygiene.html">Hygiene</a>
-                    <a href="../SelfCare/resources.html">Resources</a>
+              </li>
+              <li class="dropdown">
+                  <a class="dropbtn" href="../SocialLife/sociallife.html"><span class="glyphicon"></span>SOCIAL LIFE</a>
+                  <div class="dropdown-content">
+                      <a href="../SocialLife/relationship.html">Relationships</a>
+                      <a href="../SocialLife/friendships.html">Friendships</a>
+                      <a href="../SocialLife/etiquette.html">Social Etiquette</a>
+                      <a href="../SocialLife/socialmedia.html">Social Media</a>
                   </div>
-            </li>
-            <li class="dropdown">
-                <a class="dropbtn" href="../SocialLife/sociallife.html"><span class="glyphicon"></span>SOCIAL LIFE</a>
-                <div class="dropdown-content">
-                    <a href="../SocialLife/relationship.html">Relationships</a>
-                    <a href="../SocialLife/friendships.html">Friendships</a>
-                    <a href="../SocialLife/etiquette.html">Social Etiquette</a>
-                    <a href="../SocialLife/socialmedia.html">Social Media</a>
-                  </div>
-            </li>
-            <li style="background-color: #ec7263;"><a href="../contact.html"><span class="glyphicon"></span>CONTACT</a></li>
-        </ul>
-        </div>
-    </div>
-  </nav>
-
-<!-- Hero Image-->       
-<div class="container-fluid img-four p-0" style="margin: 0;">
-    <img class="img-responsive" src="../images/Hero-2.png"> 
-</div> 
-
-<!-- Hero section-->
-<div class="container">
-<div class="container my-5">
-    <div class="p-5 text-center bg-body-tertiary rounded-3">
-      <h1 class="text-body-emphasis">It's not That Bad!!</h1>
-      <p class="lead">
-        This is a simple Bootstrap jumbotron that sits within a <code>.container</code>, recreated with built-in utility classes.
-      </p>
-    </div>
-</div>
-</div>
-
-<!-- Post Content-->
-<div class="container-fluid py-5">
-<div class="row">
-
-    <div class="col-sm-4">
-        <div class="flip-card">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                <img src="../images/Housekeeping-1.png" alt="Avatar" style="width: 400px; height: 500px;">
-              </div>
-              <div class="flip-card-back p-5 font-one-two" style="background-color: #9fa67f;">
-                <h2 class="card-title p-5 display-5">Daily Tasks</h5>
-                <p class="card-text p-5">With supporting text below as a natural lead-in to
-                <br>additional content.</p>
-                <a href="daily.html" class="btn btn-two text-white" style="background-color: #1b1363;">LEARN MORE...</a>
-              </div>
-            </div>
+              </li>
+              <li style="background-color: #ec7263;" class="rounded-4"><a href="../contact.html"><span class="glyphicon"></span>CONTACT</a></li>
+          </ul>
           </div>
-    </div>
-    <div class="col-sm-4">
-        <div class="flip-card">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                <img src="../images/Housekeeping-3.png" alt="Avatar" style="width: 400px; height: 500px;">
-              </div>
-              <div class="flip-card-back p-5 font-one-two" style="background-color: #f0a501;">
-                <h2 class="card-title p-5 display-5">Weekly Tasks</h5>
-                    <p class="card-text p-5">With supporting text below as a natural lead-in to
-                    <br>additional content.</p>
-                    <a href="weekly.html" class="btn btn-two text-white" style="background-color: #1b1363;">LEARN MORE...</a>
-              </div>
-            </div>
-          </div>
-    </div>
-    <div class="col-sm-4">
-        <div class="flip-card">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                <img src="../images/Housekeeping-2.png" alt="Avatar" style="width: 400px; height: 500px;">
-              </div>
-              <div class="flip-card-back p-5 font-one-two" style="background-color: #8594e4;">
-                <h2 class="card-title p-5 display-5">Monthly Tasks</h5>
-                    <p class="card-text p-5">With supporting text below as a natural lead-in to
-                    <br>additional content.</p>
-                    <a href="monthly.html" class="btn btn-two text-white" style="background-color: #1b1363;">LEARN MORE...</a>
-              </div>
-            </div>
-          </div>
-    </div>
-</div>
-</div>
+      </div>
+  </nav> 
+  <br>
+</div>  
+<!--**************************************NAVIGATION BAR & HERO END*************************************************--> 
 
+
+<!--**************************************JUMBOTRON BEGIN*************************************************--> 
+<div style="font-family: 'Raleway', sans-serif; font-size:35px; background-color: #db8383;">     
+  <section class="text-center text-white container-fluid">
+      <div class="row py-5">
+          <div class="col-lg-6 col-md-8 mx-auto">
+            <h4 class="display-3" style="letter-spacing: 6px; color: #8d4040;">Social Life</h4>
+              <p class="text-white" style="font-size: 20px;">
+                  In our lives, we will encounter different types of people. People with different cultures, lifestyles, opinions and values. 
+                  Our experiences are what make us special. 
+                  <br><br>
+                  We can learn so much from each other, so let's be kind and open.
+              </p>
+              <p style="font-size: 15px; color: #794040;;">Choose what you want to get started with first!</p>
+          </div>
+      </div>
+  </section>      
+</div>
+<!--**************************************JUMBOTRON END***************************************************--> 
+
+
+<!--**************************************SELFCARE FEATURES CARDS BEGIN********************************************--> 
 <div class="container-fluid py-5">
     <div class="row justify-content-center">
-    
         <div class="col-sm-4">
             <div class="flip-card">
                 <div class="flip-card-inner">
                   <div class="flip-card-front">
-                    <img src="../images/Housekeeping-1.png" alt="Avatar" style="width: 400px; height: 500px;">
+                    <img src="../images/ss-art-1.png" alt="Avatar" style="width: 400px; height: 500px;">
                   </div>
-                  <div class="flip-card-back p-5 font-one-two" style="background-color: #9fa67f;">
-                    <h2 class="card-title p-5 display-5">Daily Tasks</h5>
-                    <p class="card-text p-5">With supporting text below as a natural lead-in to
-                    <br>additional content.</p>
-                    <a href="daily.html" class="btn btn-two text-white" style="background-color: #1b1363;">LEARN MORE...</a>
+                  <div class="flip-card-back p-5 font-one-two" style="background-color: #f5bdb9; font-family: 'Raleway', sans-serif;">
+                    <h2 class="card-title p-5 display-5"><b>Relationships</b></h5>
+                    <p class="card-text p-5">
+                      Learn how to build and maintain strong relationships through understanding and love.
+                     <br>
+                    </p>
+                    <a href="../SocialLife/relationship.html" class="btn btn-two text-white" style="background-color: #1b1363;">LET'S GO!</a>
                   </div>
                 </div>
               </div>
@@ -182,40 +142,97 @@
             <div class="flip-card">
                 <div class="flip-card-inner">
                   <div class="flip-card-front">
-                    <img src="../images/Housekeeping-3.png" alt="Avatar" style="width: 400px; height: 500px;">
+                    <img src="../images/ss-art-2.png" alt="Avatar" style="width: 400px; height: 500px;">
                   </div>
-                  <div class="flip-card-back p-5 font-one-two" style="background-color: #f0a501;">
-                    <h2 class="card-title p-5 display-5">Weekly Tasks</h5>
-                        <p class="card-text p-5">With supporting text below as a natural lead-in to
-                        <br>additional content.</p>
-                        <a href="weekly.html" class="btn btn-two text-white" style="background-color: #1b1363;">LEARN MORE...</a>
+                  <div class="flip-card-back p-5 font-one-two" style="background-color: #f5bdb9; font-family: 'Raleway', sans-serif;">
+                    <h2 class="card-title p-5 display-5"><b>Friendships</b></h5>
+                        <p class="card-text p-5">
+                          Learn how holding yourself accountable in a friendship is just one of many ways to maintain a steady friendship.
+                          <br>
+                          </p>
+                        <a href="../SocialLife/friendships.html" class="btn btn-two text-white" style="background-color: #1b1363;">LET'S GO!</a>
                   </div>
                 </div>
               </div>
         </div>
+        <div class="container-fluid py-5">
+          <div class="row justify-content-center">
+          
+            <div class="col-sm-4">
+              <div class="flip-card">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      <img src="../images/ss-art-4.png" alt="Avatar" style="width: 400px; height: 500px;">
+                    </div>
+                    <div class="flip-card-back p-5 font-one-two" style="background-color: #f5bdb9; font-family: 'Raleway', sans-serif;">
+                      <h2 class="card-title p-5 display-5"><b>Social Media</b></h5>
+                          <p class="card-text p-5">
+                            For now, it's not going anywhere, so how can we navigate it safely and get the best out of it?
+                          <br>
+                          </p>
+                          <a href="../SocialLife/socialmedia.html" class="btn btn-two text-white" style="background-color: #1b1363;">LET'S GO!</a>
+                    </div>
+                  </div>
+                </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="../images/ss-art-3.png" alt="Avatar" style="width: 400px; height: 500px;">
+                  </div>
+                  <div class="flip-card-back p-5 font-one-two" style="background-color: #f5bdb9; font-family: 'Raleway', sans-serif;">
+                    <h2 class="card-title p-5 display-5"><b>Social Etiquette</b></h5>
+                        <p class="card-text p-5">
+                          You don't have to know someone to be kind to them. Learn how to social etiquette can make you a better person.
+                        <br>
+                        </p>
+                        <a href="../SocialLife/etiquette.html" class="btn btn-two text-white" style="background-color: #1b1363;">LET'S GO!</a>
+                  </div>
+                </div>
+              </div>
+        </div>
+          </div>
+          </div>
     </div>
-    </div>
-    <br>
-    <br>
-    <br>
-<!-- Container for Footer-->
-<footer class="text-white text-center text-lg-start " style="background: #1b1363;">
-    <!-- Grid container -->
-    <div class="container py-5">    
-    </div>
-    <!-- Grid container -->
-    <!-- Copyright -->
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-      © 2024 Copyright:
-      <a href="home.html">Growingpains.com</a>
-    </div>
-    <!-- Copyright -->
-</footer>
-<script> 
-    //Get the button
+</div>
+<!--**************************************SELFCARE FEATURES CARDS END*************************************************--> 
+
+
+<!--******************************************FOOTER BEGIN**************************************************-->
+<div class="container-fluid" style="background-color: #f89421; font-family: 'Montserrat', serif;">
+  <footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3 text-white">
+      <li class="nav-item"><a href="../home.html" class="nav-link px-2 text-body-secondary"><b>HOME</b></a></li>
+      <li class="nav-item"><a href="../about.html" class="nav-link px-2 text-body-secondary">ABOUT</a></li>
+      <li class="nav-item"><a href="../HouseKeeping/housekeeping.html" class="nav-link px-2 text-body-secondary">HOUSEKEEPING</a></li>
+      <li class="nav-item"><a href="../Finance/finance.html" class="nav-link px-2 text-body-secondary">FINANCE</a></li>
+      <li class="nav-item"><a href="../SelfCare/selfcare.html" class="nav-link px-2 text-body-secondary">SELF-CARE</a></li>
+      <li class="nav-item"><a href="../SocialLife/sociallife.html" class="nav-link px-2 text-body-secondary">SOCIAL LIFE</a></li>
+      <li class="nav-item"><a href="../contact.html" class="nav-link px-2 text-body-secondary">CONTACT</a></li>
+    </ul>
+    <p class="text-center text-white">&copy; 2024 Copyright: 
+        <a href="../home.html"> mygrowingpains.com</a></p>
+  </footer>
+</div>    
+<!--******************************************FOOTER END****************************************************-->
+
+<script>
+//****************** NAVBAR SCROLL FUNCTION **************************//
+const navEl = document.querySelector('.navbar');
+
+window.addEventListener('scroll', () => {
+    if(window.scrollY >= 56) {
+        navEl.classList.add('navbar-scrolled');
+    }
+    else if(window.scrollY < 56) {
+        navEl.classList.remove('navbar-scrolled');
+    }
+});
+
+//****************** BACK TO TOP OF PAGE BUTTON ********************//
 let mybutton = document.getElementById("btn-back-to-top");
 
-// When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function () {
   scrollFunction();
 };
@@ -230,7 +247,7 @@ function scrollFunction() {
     mybutton.style.display = "none";
   }
 }
-// When the user clicks on the button, scroll to the top of the document
+
 mybutton.addEventListener("click", backToTop);
 
 function backToTop() {
@@ -238,5 +255,6 @@ function backToTop() {
   document.documentElement.scrollTop = 0;
 }
 </script>
+
 </body>
 </html>

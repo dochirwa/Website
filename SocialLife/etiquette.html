@@ -5,162 +5,286 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Website Title and Logo-->
-	  <title> Growing Pains</title>
+	  <title>Social Etiquette</title>
 
     <!-- Links for Content Design-->
         <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" >
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.css"/>
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700,900|Ubuntu:400,500,700" rel="stylesheet">
         <link rel="shortcut icon" href="../images/GPLogo.ico" type="image/x-icon" />
         <link rel="stylesheet" type="text/css" href="../css/general.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
     <!-- Links for Content Funtionality and Icons-->  
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" crossorigin="anonymous"></script>        
         <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js" crossorigin="anonymous"></script>
         <script src="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.js"></script>
+        <script src="https://kit.fontawesome.com/92e37675b9.js" crossorigin="anonymous"></script>
 </head>
-<body  data-bs-spy="scroll" data-bs-target="#toc" style="background: #f2f9f1; font-family: 'Josefin Sans', sans-serif;">
 
-<!-- Container for Navigation Bar-->
-<nav class="navbar navbar-default navbar-fixed-top" >
-    <div class="container">              
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-bs-toggle="collapse" data-bs-target="#myNavbar">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>                        
-            </button>
-        </div>            
-        <div class="collapse navbar-collapse" id="myNavbar">  
-        <div style="font-size: 20px;">
-            <a class="navbar-brand"  href="../home.html"><b>HOME</b></a>
-        </div>              
-        <ul class="nav navbar-nav navbar-right" style="display: inline-block !important;">
-            <li><a href="../about.html"><span class="glyphicon"></span>ABOUT</a></li>
-            <li class="dropdown nav-item">
-                <a class="dropbtn" href="../HouseKeeping/housekeeping.html"><span class="glyphicon"></span>HOUSEKEEPING</a>
-                <div class="dropdown-content">
-                    <a href="../HouseKeeping/daily.html">Daily</a>
-                    <a href="../HouseKeeping/weekly.html">Weekly</a>
-                    <a href="../HouseKeeping/monthly.html">Monthly</a>
-                  </div>
-            </li>
-            <li class="dropdown nav-item">
-                <a class="dropbtn" href="../Finance/finance.html"><span class="glyphicon"></span>FINANCE</a>
-                <div class="dropdown-content">
-                    <a href="../Finance/insurance.html">Insurance</a>
-                    <a href="../Finance/budgeting.html">Budgeting</a>
-                    <a href="../Finance/renting.html">Renting or Buying?</a>
-                    <a href="../Finance/bankaccount.html">Bank Accounts</a>
-                    <a href="../Finance/taxes.html">Taxes</a>
-                  </div>
-            </li>
-            <li class="dropdown">
-                <a class="dropbtn" href="selfcare.html"><span class="glyphicon"></span>SELF-CARE</a>
-                <div class="dropdown-content">
-                    <a href="../SelfCare/mental.html">Mental</a>
-                    <a href="../SelfCare/physical.html">Physical</a>
-                    <a href="../SelfCare/personalstyle.html">Personal Style</a>
-                    <a href="../SelfCare/hygiene.html">Hygiene</a>
-                    <a href="../SelfCare/resources.html">Resources</a>
-                  </div>
-            </li>
-            <li class="dropdown">
-                <a class="dropbtn" href="../SocialLife/sociallife.html"><span class="glyphicon"></span>SOCIAL LIFE</a>
-                <div class="dropdown-content">
-                    <a href="../SocialLife/relationship.html">Relationships</a>
-                    <a href="../SocialLife/friendships.html">Friendships</a>
-                    <a href="../SocialLife/etiquette.html">Social Etiquette</a>
-                    <a href="../SocialLife/socialmedia.html">Social Media</a>
-                  </div>
-            </li>
-            <li style="background-color: #ec7263;"><a href="../contact.html"><span class="glyphicon"></span>CONTACT</a></li>
-        </ul>
+<body data-bs-spy="scroll" data-bs-target="#toc">
+
+<!--**************************************BACK TO TOP BUTTON BEGIN***********************************************--> 
+<button type="button" class="btn btn-floating btn-lg" id="btn-back-to-top" style="background-color: #1b1363; box-shadow: inset;">
+    <i class="fa-solid fa-arrow-up-from-bracket" style="color: white;"></i>
+</button>
+<!--**************************************BACK TO TOP BUTTON END***********************************************--> 
+
+<!--**************************************NAVIGATION BAR & HERO BEGIN***********************************************--> 
+<div class="parallax-two">
+    <img class="img-responsive" src="../images/etiquette.png" alt="background image">      
+    <nav class="navbar navbar-fixed-top" >
+        <div class="container">              
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-bs-toggle="collapse" data-bs-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>                        
+                </button>
+            </div>            
+            <div class="collapse navbar-collapse" id="myNavbar">  
+            <div style="font-size: 20px;">
+                <a class="navbar-brand" href="../home.html"><b>HOME</b></a>
+            </div>              
+            <ul class="nav navbar-nav navbar-right" style="display: inline-block !important;">
+                <li><a href="../about.html"><span class="glyphicon"></span>ABOUT</a></li>
+                <li class="dropdown nav-item">
+                    <a class="dropbtn" href="../HouseKeeping/housekeeping.html"><span class="glyphicon"></span>HOUSEKEEPING</a>
+                    <div class="dropdown-content">
+                        <a href="../HouseKeeping/daily.html">Daily</a>
+                        <a href="../HouseKeeping/weekly.html">Weekly</a>
+                        <a href="../HouseKeeping/monthly.html">Monthly</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a class="dropbtn" href="../Finance/finance.html"><span class="glyphicon"></span>FINANCE</a>
+                    <div class="dropdown-content">
+                        <a href="../Finance/bankaccount.html">Bank Accounts</a>
+                        <a href="../Finance/budgeting.html">Budgeting</a>
+                        <a href="../Finance/insurance.html">Insurance</a>                        
+                        <a href="../Finance/renting.html">Rent & Buy</a>                        
+                        <a href="../Finance/taxes.html">Taxes</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a class="dropbtn" href="../SelfCare/selfcare.html"><span class="glyphicon"></span>SELF-CARE</a>
+                    <div class="dropdown-content">
+                        <a href="../SelfCare/mental.html">Mental</a>
+                        <a href="../SelfCare/physical.html">Physical</a>
+                        <a href="../SelfCare/personalstyle.html">Personal Style</a>
+                        <a href="../SelfCare/hygiene.html">Hygiene</a>
+                        <a href="../SelfCare/resources.html">Resources</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a class="dropbtn" href="../SocialLife/sociallife.html"><span class="glyphicon"></span>SOCIAL LIFE</a>
+                    <div class="dropdown-content">
+                        <a href="../SocialLife/relationship.html">Relationships</a>
+                        <a href="../SocialLife/friendships.html">Friendships</a>
+                        <a href="../SocialLife/etiquette.html">Social Etiquette</a>
+                        <a href="../SocialLife/socialmedia.html">Social Media</a>
+                    </div>
+                </li>
+                <li style="background-color: #ec7263;" class="rounded-4"><a href="../contact.html"><span class="glyphicon"></span>CONTACT</a></li>
+            </ul>
+            </div>
         </div>
-    </div>
-  </nav>
+    </nav> 
+    <br>
+</div>  
+<!--**************************************NAVIGATION BAR & HERO END*************************************************--> 
 
-<!-- Hero Image-->
-<!-- Container for Jumbotron-->
-<div class="container-fluid img-four p-0 py-2" style="margin: 0;">
-    <img class="img-responsive" src="../images/Hero-H-1.png"> 
-</div> 
 
-<!-- Container for Main Content and Side Bar-->
-    <div class="container">
-        <div class="row ">
-          <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 py-5 ">
-            <nav id="toc" data-toggle="toc" class="toc">
-            </nav>
-          </div> 
-                
-        <!-- Post Content-->
-            <article class="container col-xs-12 col-sm-12 col-md-10 col-lg-10">
-                <h1 class="display-5">AHHHHHHHHHHHH</h1>
-                <div class="row gx-4 gx-lg-5 justify-content-center font-one-two">
-                    
-                    <h2 class="section-heading">Health Insurance</h2>
-
-                        <p>Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.</p>
-                        <p>Science cuts two ways, of course; its products can be used for both good and evil. But there's no turning back from science. The early warnings about technological dangers also come from science.</p>
-                        <p>What was most significant about the lunar voyage was not that man set foot on the Moon but that they set eye on the earth.</p>
-                        <p>A Chinese tale tells of some men sent to harm a young girl who, upon seeing her beauty, become her protectors rather than her violators. That's how I felt seeing the Earth for the first time. I could not help but love and cherish her.</p>
-                        <p>For those who have seen the Earth from space, and for the hundreds and perhaps thousands more who will, the experience most certainly changes your perspective. The things that we share in our world are far more valuable than those which divide us.</p>
-                    
-                    <h2 class="section-heading">Life Insurance</h2>
-
-                        <p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>
-                        <p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>
-                        <blockquote class="blockquote">The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.</blockquote>
-                        <p>Spaceflights cannot be stopped. This is not the work of any one man or even a group of men. It is a historical process which mankind is carrying out in accordance with the natural laws of human development.</p>
-                    
-                    <h2 class="section-heading">Dental Insurance</h2>
-
-                        <p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would crumble and fall apart. Seeing this has to change a man.</p>
-                        <a href="#!"><img class="img-fluid" src="assets/img/post-sample-image.jpg" alt="..." /></a>
-                        <span class="caption text-muted">To go places and do things that have never been done before – that’s what living is all about.</span>
-                        <p>Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before.</p>
-                        <p>As I stand out here in the wonders of the unknown at Hadley, I sort of realize there’s a fundamental truth to our nature, Man must explore, and this is exploration at its greatest.</p>
-                    
-                    <h2 class="section-heading">Car Insurance</h2>
-
-                    <p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would crumble and fall apart. Seeing this has to change a man.</p>
-                    <a href="#!"><img class="img-fluid" src="assets/img/post-sample-image.jpg" alt="..." /></a>
-                    <span class="caption text-muted">To go places and do things that have never been done before – that’s what living is all about.</span>
-                    <p>Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before.</p>
-                    <p>As I stand out here in the wonders of the unknown at Hadley, I sort of realize there’s a fundamental truth to our nature, Man must explore, and this is exploration at its greatest.</p>
-                
-                        <p>
-                            Placeholder text by
-                            <a href="http://spaceipsum.com/">Space Ipsum</a>
-                            &middot; Images by
-                            <a href="https://www.flickr.com/photos/nasacommons/">NASA on The Commons</a>
-                        </p>
-                </div>       
-            </article>
+<!--****************************************** MAIN CONTENT BEGIN ****************************************************-->
+<div class="container">
+    <div class="row ">
+        <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+        <nav id="toc" data-toggle="toc" class="toc"></nav>
         </div>
+               
+    <!---------------------------------- Post Content--------------------------------------------->
+    <article class="container col-xs-12 col-sm-12 col-md-10 col-lg-10" style="font-family: 'Montserrat', sans-serif; font-size:35px;">
+        <h1 class="display-1">How To Practice Good Social Etiquette </h1>
+        <p style="font-size: 16px;"><b>May 01, 2024</b></p> 
+        <p style="font-size: 15px;"><i>By My Growing Pains</i></p> 
+        <br>
+        <div class="row gx-4 gx-lg-5 justify-content-center font-one-two">
+ 
+                <p>
+                    As the internet becomes more and more explicit, we see how it bleeds into our regular lives. 
+                    There seems to be a lack of social etiquette being demonstrated. From recording random strangers to 
+                    getting mad at people walking in front of your video or picture in public spaces, we have lost the plot. 
+                </p>
+                <p>
+                    There are some social skills that seem to be a miss. It doesn’t hurt to be polite and have manners; 
+                    it feels good to be on the receiving end of a polite person. 
+                </p>
+                <p>
+                    We’ve all heard the golden rule: treat others how you want to be treated. So, how should you treat others? Let’s discuss. 
+                </p>
+                <img src="../images/etiquette-img.jpg" alt="etiquette"> 
+
+            <h2 class="section-heading"><br>Please, Thank you and Excuse Me </h2>
+                <p>
+                    For some odd reason, I have noticed that people rarely say excuse me when I am out and about. 
+                    I do because that’s just what is right, but I have been bumped into and have had people reach over me to get something they need. 
+                </p>
+                <p>
+                    It is important to say please when you are asking for something, thank you when you are expressing gratitude 
+                    and excuse me when your actions could be seen as a hinderance to someone.
+                </p>
+
+            <h2 class="section-heading"><br>Be Kind to Service Workers </h2>
+
+                <p>
+                    Service workers are individuals who provide services to the general public. Services such as serving food and checking you out. 
+                </p>
+                <p>
+                    It is often said that you can see someone’s true colors depending on how they treat service workers. 
+                    They are not there for you to disrespect; they are there to do their jobs and go live their lives. 
+                    Remember that they are human beings. 
+                </p>
+
+            <h2 class="section-heading"><br>Hold the Door </h2>
+
+                <p>
+                    When someone is walking behind you and you both are entering the same room or building, hold the door behind you.   
+                </p>
+                <p>
+                    Imagine your hands are full and you are walking behind someone. You both get to the door, 
+                    and they don’t hold it for you. How would you feel? Help someone out and hold the door.   
+                </p>
+                <p>
+                    You do not have to stand there for hours  holding the door for every person entering or leaving, no, 
+                    have one hand on the door and your body facing away from it. I guarantee you’ll get a thank you.     
+                </p>
+
+            <h2 class="section-heading"><br>Don’t Answer Your Phone in Public Spaces </h2>
+
+                <p>
+                    A big pet peeve of mine is when I am in the nail salon 
+                    and there is a customer talking on the phone. I am there to relax; not hear why you don’t like someone. 
+                </p>
+                <p>
+                    It’s obviously different when you come in with a friend, but it’s the epitome of rudeness, talking on the phone in a closed space. 
+                    Circumstances are different, yes, but it’s best practice that if you must answer the call, do so and excuse yourself.    
+                </p>
+
+            <h2 class="section-heading"><br>Be Punctual </h2>
+
+                <p>
+                    Don’t waste any one’s time if you don’t want your time wasted. Being on time or 5 minutes earlier can always do you better than you think.   
+                </p>
+                <p>
+                    You can create a good reputation for yourself with your friends and employers as they will deem you a reliable person. 
+                    Plan your time accordingly and be punctual.   
+                </p>
+
+            <h2 class="section-heading"><br>Don’t Be Flaky </h2>
+
+                <p>
+                    Just as you should be punctual, do not flake on your friends or commitments. Especially at the last minute. 
+                    If you constantly flake out on your friends, it can get to the point where they just stop inviting you.   
+                </p>
+                <p>
+                    If you know you cannot make it to an event, tell your friends at least 3 days ahead of time so they do not waste their time getting ready.  If it’s an emergency, then of course, that’s different.  
+                </p>
+         
+            <h2 class="section-heading"><br>Be Sensible </h2>
+                
+                <p>
+                    Be conscious of your surroundings and be careful with what you say in public. 
+                    Learn to read the room and understand that certain topics should not be spoken about in public. 
+                </p>
+                <p>
+                    Trust me, you may think you are a good whisperer, but you are not. Don’t talk politics, 
+                    don’t talk personal life details, and most definitely, don’t belittle others in public.  
+                </p>
+
+
+            <h2 class="section-heading">Conclusion</h2>
+
+                <p>
+                    These are just some of the basics of practicing good social etiquette. There are plenty more, but you can always start with these.  
+                </p>   
+                <p>
+                    With a lot of these tasks, you should always empathize with someone to at least get a better understanding of why you should do these things. 
+                    If you do not want it happening to you or anyone you love, start by being the example.
+                </p>
+            <br>
+            <br>
+                <p>
+                Written by
+                <a href="../about.html">Doreen Chirwa</a>
+                &middot; 
+                <a href="../home.html">My Growing Pains</a>
+            </p>
+        </div>       
+    </article>
     </div>
-    <br>
-    <br>
-    <br>
-<!-- Container for Footer-->
-<footer class="text-white text-center text-lg-start " style="background: #1b1363;">
-    <!-- Grid container -->
-    <div class="container py-5">    
-    </div>
-    <!-- Grid container -->
-    <!-- Copyright -->
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-      © 2024 Copyright:
-      <a href="home.html">Growingpains.com</a>
-    </div>
-    <!-- Copyright -->
-</footer>
+</div>
+<!--****************************************** MAIN CONTENT END ****************************************************-->
+<br>
+<br>
+<br>
+<!--******************************************FOOTER BEGIN**************************************************-->
+<div class="container-fluid" style="background-color: #f89421; font-family: 'Montserrat', serif;">
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3 text-white">
+        <li class="nav-item"><a href="../home.html" class="nav-link px-2 text-body-secondary"><b>HOME</b></a></li>
+        <li class="nav-item"><a href="../about.html" class="nav-link px-2 text-body-secondary">ABOUT</a></li>
+        <li class="nav-item"><a href="../HouseKeeping/housekeeping.html" class="nav-link px-2 text-body-secondary">HOUSEKEEPING</a></li>
+        <li class="nav-item"><a href="../Finance/finance.html" class="nav-link px-2 text-body-secondary">FINANCE</a></li>
+        <li class="nav-item"><a href="../SelfCare/selfcare.html" class="nav-link px-2 text-body-secondary">SELF-CARE</a></li>
+        <li class="nav-item"><a href="../SocialLife/sociallife.html" class="nav-link px-2 text-body-secondary">SOCIAL LIFE</a></li>
+        <li class="nav-item"><a href="../contact.html" class="nav-link px-2 text-body-secondary">CONTACT</a></li>
+      </ul>
+      <p class="text-center text-white">&copy; 2024 Copyright: 
+          <a href="../home.html"> mygrowingpains.com</a></p>
+    </footer>
+  </div>    
+<!--******************************************FOOTER END****************************************************-->
+  
+<script>
+  //****************** NAVBAR SCROLL FUNCTION **************************//
+  const navEl = document.querySelector('.navbar');
+  
+  window.addEventListener('scroll', () => {
+      if(window.scrollY >= 56) {
+          navEl.classList.add('navbar-scrolled');
+      }
+      else if(window.scrollY < 56) {
+          navEl.classList.remove('navbar-scrolled');
+      }
+  });
+  
+  //****************** BACK TO TOP OF PAGE BUTTON ********************//
+  let mybutton = document.getElementById("btn-back-to-top");
+  
+  window.onscroll = function () {
+    scrollFunction();
+  };
+  
+  function scrollFunction() {
+    if (
+      document.body.scrollTop > 20 ||
+      document.documentElement.scrollTop > 20
+    ) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+  
+  mybutton.addEventListener("click", backToTop);
+  
+  function backToTop() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+</script>
 
 </body>
 </html>
